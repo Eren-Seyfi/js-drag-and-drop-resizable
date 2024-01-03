@@ -1,0 +1,29 @@
+.t-color {
+  background-color: #29e;
+  color: white;
+}
+.draggable {
+
+  margin: 1rem 0 0 1rem;
+  border-radius: 0.75em;
+  padding: 4%;
+  touch-action: none;
+  user-select: none;
+}
+
+.resizable {
+  width: 140px;
+  height: 70px;
+  border-radius: 0.75rem;
+  padding: 20px;
+  margin: 1rem;
+
+  font-size: 20px;
+  font-family: sans-serif;
+  overflow: hidden;
+
+  touch-action: none;
+
+  /* This makes things *much* easier */
+  box-sizing: border-box;
+}
